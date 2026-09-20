@@ -1,6 +1,6 @@
 # Privacy Policy for Memorie
 
-**Last updated: 5 September 2026**
+**Last updated: 20 September 2026**
 
 Memorie is a place to keep the memories of a life — yours, or someone
 you love. What you write down is yours. This page explains, in plain
@@ -51,8 +51,14 @@ your voice recordings. Voice notes are transcribed **on your device** —
 the recording itself never leaves it, and only the resulting text can be
 included in a recap.
 
-The request carries no name, email address, account, or device
-identifier, because Memorie doesn't have any of those.
+The request carries no name, email address or account, because Memorie
+doesn't have any. It does carry a **per-install key**: a random
+identifier your iPhone creates the first time you write a recap, which
+proves the request came from the real Memorie app and not from someone
+who found the address of our service and wanted to spend our credit on
+it. It is not derived from you or your phone, it says nothing about
+either, and deleting and reinstalling the app replaces it with a new
+one.
 
 ### Who handles it
 
@@ -62,11 +68,18 @@ none of your memories. Cloudflare processes the request in transit and
 may log ordinary technical information such as the originating IP
 address, as any web service does.
 
+Our service keeps two small things, and no memories: the per-install key
+above with a count of recaps written by it, so the monthly limit and the
+abuse limits can be enforced; and a short-lived count of requests per
+internet address, which expires within hours. Neither is linked to a
+person, and neither contains anything you wrote.
+
 From there it goes to **Anthropic**, which generates the recap and
-returns it. Under Anthropic's Commercial Terms of Service, *"Anthropic
-may not train models on Customer Content from Services"* — your
-memories are not used to train AI models. Anthropic's own privacy
-policy is at https://www.anthropic.com/legal/privacy.
+returns it. Anthropic may hold the request briefly for safety and abuse
+monitoring under their own terms. Under Anthropic's Commercial Terms of
+Service, *"Anthropic may not train models on Customer Content from
+Services"* — your memories are not used to train AI models. Anthropic's
+own privacy policy is at https://www.anthropic.com/legal/privacy.
 
 The recap comes back, is shown to you, and is kept on your device only
 if you tap **Save this recap**.
@@ -121,17 +134,15 @@ memories are only ever transmitted if you choose to generate a recap.
 
 ## Your control over your data
 
-- **Export.** *Settings → Export all data as JSON* writes a complete,
-  readable copy of your entries, recaps and timeline details to a file
-  you keep. (The file lists photo and video filenames rather than
-  embedding the media itself.)
 - **Delete a single memory.** Open it and delete it.
 - **Delete a person's timeline.** *Settings → the person → Remove.* This
   deletes their memories, photos and recaps, and affects nobody else.
-- **Delete everything.** *Settings → Delete all data.*
+  (With only one person kept, use Delete everything below.)
+- **Delete everything.** *Settings → Delete everything.*
 - **Delete the app.** Removing Memorie from your device removes
-  everything it stored. Because we hold nothing, there is nothing left
-  for you to ask us to erase.
+  everything it stored, including the per-install key. Because we hold
+  no memories of yours, there is nothing left for you to ask us to
+  erase.
 
 We keep your memories for as long as they are on your device, and no
 longer — that decision is entirely yours, not ours.
@@ -151,6 +162,12 @@ is the strongest protection available.
 If this policy changes, the date at the top will change with it, and any
 change that affects what leaves your device will be described here
 plainly rather than buried.
+
+## Who we are
+
+Memorie is made by Srinidhi Konappagari, an independent developer.
+Requests to write a recap are processed in the United States by the
+services named above.
 
 ## Contact
 

@@ -1,6 +1,6 @@
 # Privacy Policy for Memorie
 
-**Last updated: 20 September 2026**
+**Last updated: 21 September 2026**
 
 Memorie is a place to keep the memories of a life — yours, or someone
 you love. What you write down is yours. This page explains, in plain
@@ -134,6 +134,11 @@ memories are only ever transmitted if you choose to generate a recap.
 
 ## Your control over your data
 
+- **Save a copy.** *Settings → Save a copy* writes everything on the
+  phone into a single zip you keep: a page any web browser can open, your
+  photographs and voice recordings as files, and the same thing again in
+  a form software can read. Videos are listed but not copied, because
+  Memorie never held them — they stay in your Photos library.
 - **Delete a single memory.** Open it and delete it.
 - **Delete a person's timeline.** *Settings → the person → Remove.* This
   deletes their memories, photos and recaps, and affects nobody else.

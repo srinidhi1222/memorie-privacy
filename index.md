@@ -179,3 +179,5 @@ services named above.
 Questions about this policy, or about your data:
 
 **reddysrinidhi70@gmail.com**
+
+For help with the app itself, see [Support](./support.html).
